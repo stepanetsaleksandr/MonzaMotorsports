@@ -164,6 +164,7 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $Color-primary-200;
 }
 
 .prod-title {
@@ -200,12 +201,11 @@ h6 {
   padding-right: 16px;
   width: 170px;
   height: 48px;
-
-  border: 1px solid #bdbdbd;
+  border: 1px solid $Color-secondary-300;
   border-radius: 15px;
 
   &:active {
-    border: 1px solid #bdbdbd;
+    border: 1px solid $Color-secondary-300;
     border-radius: 15px 15px 0 0 !important;
     border-bottom: none !important;
   }
@@ -222,8 +222,9 @@ h6 {
   line-height: 40px;
   width: 170px;
   transform: translate(0px, 34px) !important;
-  border: 1px solid #bdbdbd;
+  border: 1px solid $Color-secondary-200;
   border-radius: 0 0 15px 15px !important;
+  background-color: $Color-primary-200 !important;
 }
 
 .button-red {
@@ -256,12 +257,16 @@ h6 {
 }
 
 .sort-panel {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 24px;
   align-items: center;
-}
 
+  margin-top: 24px;
+}
+.form-check {
+  display: block;
+}
+.sort-btn {
+  display: block;
+}
 // .form-check-input {
 //   border-color: $Color-secondary-200 !important;
 //   border: 2px solid $Color-secondary-200 !important;
